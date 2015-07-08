@@ -1,0 +1,188 @@
+body {
+	width:100%;
+	background-color:#fff;
+	margin:0;
+	padding:0;
+	
+}
+ /*#masthead {
+    width:100%;
+	height:4em;
+	font-size:1em;
+	font-family:'Roboto', Tahoma, sans-serif;*/
+ }
+.topleft {
+	position:fixed;
+	width: 100%;
+	height: 4.3em;
+	margin-top: 0;
+	background-color: rgba(255,255,255,1);
+	margin-left: 0px;
+	border-bottom: solid 1px rgba(230,230,230,1);
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: "Century Gothic", Roboto, sans-serif;
+	font-size: 1em;
+	color: rgba(153,153,153,1);
+	position: fixed;
+	z-index: 99;
+	
+
+}
+.logo {
+	float:left;
+	width:12%;
+	height:2.5em;
+	display:inline;
+	padding-left: 9.1em;
+	padding-bottom: 2px;
+	
+}
+.topleft img {
+	width:1.6em;
+	height:2.4em;	
+	margin-top: 14px;
+	margin-left:7.4em;
+}
+.topleft ul {float:right;
+     list-style-type:none;
+	 vertical-align:middle;
+	 margin-top: 1.8em;
+	 margin-right:4em;
+}
+.topleft ul li {display:inline;
+     margin-right:2.8em;
+	 font-weight:bold;	
+}
+
+.footer {
+	float: left;
+	clear: both;
+	text-align: center;
+	width: 100%;
+	margin-top: 5em;
+}
+.intro {
+	float: left;
+	width: 100%;
+	height: 580px;
+	background-color: rgba(220,220,220,1);
+	background-image: url(../../../images/karmabackground.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	 background-position:92% 12%; 
+	font-family: Century Gothic, 'Roboto', sans-serif;
+	color: #fff;
+	text-align: center;
+	/* background-position: 0 bottom; */
+	margin-bottom: 3.5em;
+	
+}
+.intro .introwords {
+	margin-top: 10em;
+	padding: 0px;
+	padding-left: .2em;
+	vertical-align: middle;
+	font-family: Century Gothic, 'Roboto', sans-serif;
+	
+	font-size: 1.5em;
+	font-weight: normal;
+}
+.intro .introwords h1 {
+	margin-top:1.2em;
+	font-size:1.9em;
+	font-weight: normal;
+	line-height:.8em;
+	color:#fff;
+}
+.intro .introwords h3 {
+	line-height:.8em;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+.introwords .invite {
+	width: 6.5em;
+	height: 2em;
+	background-color: rgba(255,0,51,1);
+	border: solid 1px rgba(255,0,51,1);
+	border-radius: 8px;
+	-moz-border-radius: 8px 8px;
+	-webkit-border-radius: 8px;
+	padding-top:.7em;
+	padding-left: 4px;
+	margin: auto;
+	font-size: 0.85em;
+	font-weight:bold;
+	color: #fff;
+	margin-top: 27px;
+	cursor:pointer;
+}
+
+.invite a:link {
+	text-decoration: none;
+	text-align: center;
+}
+
+.intro a:hover {
+	color: rgba(102,153,102,1);
+}
+ 
+.mainbody {
+	width:100%;
+	overflow:auto;
+
+
+}
+.divcenter {
+	float:left;
+	margin-left:10%;
+	width:150px;
+/*	height 158px;*/
+	display:inline-block;
+	border: solid 1px #fff;
+}
+.space {
+	width:100%;
+	height:1px;
+	color:#fff;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+	font-size: 2.1em;
+    }
+}
+
+
+.divcenter h3 {
+	font-family: "Century Gothic", Roboto, sans-serif;
+	font-size: 1.2em;
+	text-align:center;
+}
+.footer .footcopyright {
+	font-size: .8em;
+	color: rgba(153,153,153,1);
+}
+.footer p {
+	font-family: "Century Gothic", Roboto, sans-serif;
+	font-size: 0.96em;
+	font-weight: bold;
+}
+
+.mainbody h1 {
+	font-family: "Century Gothic", Roboto, sans-serif;
+	font-weight: normal;
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 7em;
+	line-height: 1.5em;
+}
+.devices {
+	float:left;
+	width: 15%;
+	height:170px;
+	margin-top:4em;
+	display:inline-block;
+}
